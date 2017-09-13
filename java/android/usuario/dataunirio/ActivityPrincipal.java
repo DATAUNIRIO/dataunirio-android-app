@@ -15,7 +15,7 @@ public class ActivityPrincipal extends AppCompatActivity {
         WebView webView = (WebView)findViewById(R.id.webView);
         // Habilita JavaScript (jQuery) - necessário para efeitos.
         webView.getSettings().setJavaScriptEnabled(true);
-        //webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+        // webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         webView.loadUrl("https://dataunirio.github.io/");
         // Habilita links para navegação interna (sem redirecionamento para outros browsers).
         webView.setWebViewClient(new WebViewClient());
